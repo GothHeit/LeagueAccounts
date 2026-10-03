@@ -134,6 +134,7 @@ export interface Bootstrap {
 export interface BatchResult {
   added: number;
   skipped: number;
+  skippedLines: number[];
 }
 
 export interface NewAccount {
